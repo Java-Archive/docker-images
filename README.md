@@ -2,18 +2,9 @@
 Docker Images for (Java) - Developers / DevOps
 
 ## JDK Images
-The folders with jdk-.. in the beginning are pure java Docker Images.
-All images are using the same mechanism based on jabber to install the JDK.
-The images are tagged with the build number/ minor version number of the JDK.
-Images that are out of support/development are moved into the _obsolete folder.
+The docker JDK/Maven images are not available under a separate repo.
+[https://github.com/svenruppert/docker-image-generator]{https://github.com/svenruppert/docker-image-generator}
 
-The Base Image is **buildpack-deps:buster-curl**
-
-Supported vendors are: 
-* openjdk
-* oracle
-* zulu
-* oracle labs / graalvm CE
 
 
 ## Maven Images
